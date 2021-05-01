@@ -1,67 +1,67 @@
 body {
-    font-family: 'segoe ui light';
-    background: linear-gradient(to right, #614385, #516395);
+  font-family: "segoe ui light";
+  background: linear-gradient(to right, #614385, #516395);
 }
 
 .item {
-    margin-top: 30px;
-    cursor: pointer;
-    transition: transform .5s;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: transform 0.5s;
 }
 
 .item:hover {
-    transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 .item-caption {
-    bottom: 20px;
-    width: 80%;
-    left: 10%;
-    background-color: #fff;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: rgb(211, 211, 211);
-    border-radius: 15px;
+  bottom: 20px;
+  width: 80%;
+  left: 10%;
+  background-color: #fff;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(211, 211, 211);
+  border-radius: 15px;
 }
 
 .lightbox-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: none;
-    align-items: center;
-    justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .lightbox-item {
-    width: 40%;
-    height: 75vh;
-    background-size: 100% 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    border-radius: 20px;
+  width: 40%;
+  height: 75vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 20px;
 }
 
 #closeBtn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .lightbox-item i {
-    font-size: 20px;
-    cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 #nextBtn {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 #prevBtn {
-    margin-left: 20px;
+  margin-left: 20px;
 }
