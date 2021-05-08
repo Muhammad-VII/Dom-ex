@@ -65,3 +65,10 @@ body {
 #prevBtn {
   margin-left: 20px;
 }
+
+@media (max-width: 900px) {
+  .lightbox-item{
+    width: 80%;
+    height: 50vh;
+  }
+}

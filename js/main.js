@@ -5,6 +5,7 @@ let closeBtn = document.getElementById("closeBtn");
 let nxtBtn = document.getElementById("nextBtn");
 let prevBtn = document.getElementById("prevBtn");
 let currentIndex = 0;
+// let layer = document.querySelector(".layer")
 
 for (let i = 0; i < imgs.length; i++) {
   imgs[i].addEventListener("click", function (e) {
@@ -52,3 +53,8 @@ closeBtn.addEventListener(`click`, clsBtn);
 function clsBtn() {
   lightBoxContainer.style.display = `none`;
 }
+
+$(lightBoxContainer).click(function(e) {
+  e.stopPropagation();
+  console.log('hi')
+});
